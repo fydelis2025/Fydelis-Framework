@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+OpenIDE-Module: br.com.fydelis.netbeans
+OpenIDE-Module-Name: Fydelis Framework
+OpenIDE-Module-Display-Name: Fydelis — Ecossistema Qt/C++
+OpenIDE-Module-Short-Description: Migração Qt5→Qt6 e validação.
+OpenIDE-Module-Vendor: Fydelis
+OpenIDE-Module-License: MIT
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Public-Packages: br.com.fydelis.netbeans.* br.com.fydelis.netbeans.actions.* br.com.fydelis.netbeans.core.* br.com.fydelis.netbeans.validator.*
+OpenIDE-Module-Module-Dependencies: org.openide.modules org.openide.awt org.openide.windows org.openide.filesystems org.openide.loaders org.netbeans.api.editor org.netbeans.spi.editor.hints javax.swing

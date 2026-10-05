@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Fydelis">
+            <file name="br-com-fydelis-netbeans-actions-FydelisStatusAction.instance">
+                <!--br.com.fydelis.netbeans.actions.FydelisStatusAction-->
+                <attr name="displayName" stringvalue="Fydelis: Status do Sistema"/>
+                <attr methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="br.com.fydelis.netbeans.actions.FydelisStatusAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="br-com-fydelis-netbeans-migracaoQt6.instance">
+                <!--br.com.fydelis.netbeans.migration.Qt6MigrationWizard-->
+                <attr bundlevalue="br.com.fydelis.netbeans.migration.Bundle#CTL_MigrarQt6" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="br.com.fydelis.netbeans.migration.Qt6MigrationWizard"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="br-com-fydelis-netbeans-actions-FydelisStatusAction.shadow">
+                <!--br.com.fydelis.netbeans.actions.FydelisStatusAction-->
+                <attr name="originalFile" stringvalue="Actions/Fydelis/br-com-fydelis-netbeans-actions-FydelisStatusAction.instance"/>
+                <attr intvalue="100" name="position"/>
+            </file>
+        </folder>
+        <folder name="Fydelis">
+            <file name="br-com-fydelis-netbeans-migracaoQt6.shadow">
+                <!--br.com.fydelis.netbeans.migration.Qt6MigrationWizard-->
+                <attr name="originalFile" stringvalue="Actions/Fydelis/br-com-fydelis-netbeans-migracaoQt6.instance"/>
+                <attr intvalue="20" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="br-com-fydelis-netbeans-ui-FydelisStatusPanel.shadow">
+                <!--br.com.fydelis.netbeans.ui.FydelisStatusPanel-->
+                <attr name="originalFile" stringvalue="Actions/Window/br-com-fydelis-netbeans-ui-FydelisStatusPanel.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="FydelisStatusPanel.settings">
+                <!--br.com.fydelis.netbeans.ui.FydelisStatusPanel--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="br.com.fydelis.netbeans.ui.FydelisStatusPanel"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="FydelisStatusPanel.wstcref">
+                    <!--br.com.fydelis.netbeans.ui.FydelisStatusPanel--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="FydelisStatusPanel"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

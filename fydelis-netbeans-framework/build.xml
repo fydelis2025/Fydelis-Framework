@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="fydelis-netbeans-framework" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Fydelis NetBeans Framework</description>
+    <import file="nbproject/build-impl.xml"/>
+    
+    <!-- Você pode adicionar targets personalizados aqui -->
+    <target name="-pre-jar">
+        <echo message="Empacotando Fydelis Framework..."/>
+    </target>
+    
+    
+</project>
